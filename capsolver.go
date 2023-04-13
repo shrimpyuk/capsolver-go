@@ -47,8 +47,8 @@ func (c CapSolver) Balance() (*capSolverResponse, error) {
 }
 
 func (c *CapSolver) getApiKey() string {
-	if c.apiKey != "" {
-		return c.apiKey
+	if c.ApiKey != "" {
+		return c.ApiKey
 	}
 	return ApiKey
 }
